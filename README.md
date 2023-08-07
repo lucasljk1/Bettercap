@@ -13,6 +13,7 @@ Nesse tutorial você irá acompanhar como executar o processo de um ataque mitm 
 4- **net.show** |Ao executar exibe todos os hosts que foram reconhecidos na rede.
 
 5 -**set arp spooof.targets** | para definir o alvo do ataque, nessa parte do processo é importante você identificar o AP e replicar o endereço Ex.**: 192.168.0.1**
+5.1- arp.spoof on | Para iniciar o ataque. 
 
 6- **cat /proc/sys/net/ipv4/ip_foward** | Execute novamente esse comando e ele ira retorna o numero 1 para você. resultado 1 significa que o encaminhamento de pacotes já está ativado 
 
